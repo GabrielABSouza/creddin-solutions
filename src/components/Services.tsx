@@ -3,15 +3,15 @@ import { Briefcase, PiggyBank, Clock, Shield } from "lucide-react";
 const services = [
   {
     icon: Briefcase,
-    title: "Consignado CLT",
+    title: "CLT",
     description: "Crédito com desconto em folha para trabalhadores CLT. Taxas reduzidas e parcelas fixas.",
-    features: ["Taxas a partir de 1,5% a.m.", "Até 84 meses para pagar", "Desconto direto na folha"],
+    features: ["Até 48x", "Taxas a partir de 3%"],
   },
   {
     icon: PiggyBank,
-    title: "Antecipação FGTS",
+    title: "FGTS",
     description: "Antecipe seu saque-aniversário do FGTS e tenha dinheiro na mão agora.",
-    features: ["Antecipe até 10 anos", "Sem comprometer a renda", "Liberação em 24h"],
+    features: ["Libere até 5 anos", "Pagamento em 10 minutos"],
   },
 ];
 
