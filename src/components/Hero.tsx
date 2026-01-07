@@ -16,13 +16,17 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-fade-in" style={{ animationDelay: "0.2s" }}>
             <a
               href="#servicos"
+              onClick={(e) => {
+                e.preventDefault();
+                document.getElementById('servicos')?.scrollIntoView({ behavior: 'smooth' });
+              }}
               className="inline-flex items-center justify-center gap-2 bg-accent text-accent-foreground px-8 py-4 rounded-full font-semibold text-lg hover:opacity-90 transition-all hover:gap-3"
             >
               Simular Agora
               <ArrowRight className="w-5 h-5" />
             </a>
             <a
-              href="https://wa.me/5511999999999"
+              href="https://wa.me/5527981064382"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-primary-foreground/10 text-primary-foreground border border-primary-foreground/20 px-8 py-4 rounded-full font-semibold text-lg hover:bg-primary-foreground/20 transition-all"

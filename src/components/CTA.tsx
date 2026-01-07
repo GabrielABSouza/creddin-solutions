@@ -11,7 +11,7 @@ const CTA = () => {
           Entre em contato com nossa equipe e faça uma simulação sem compromisso.
         </p>
         <a
-          href="https://wa.me/5511999999999"
+          href="https://wa.me/5527981064382"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-3 bg-accent text-accent-foreground px-8 py-4 rounded-full font-semibold text-lg hover:opacity-90 transition-opacity"
